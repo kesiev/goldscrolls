@@ -460,7 +460,7 @@ function Docs() {
                 return html;
             },
             formatPortraitBar:(image,name)=>{
-                return "<div align=\"center\" style=\"margin:60px 0\"><p><img style=\"max-height:150px\" src=\"portraits/" + image+"\"></p></div>\n\n### " + name + "\n\n";
+                return "<div align=\"center\" style=\"margin:60px 0\"><p><img style=\"background-color:#fff;max-height:150px\" src=\"portraits/" + image+"\"></p></div>\n\n### " + name + "\n\n";
             },
             formatGenerator:(method,pos,name,version)=>{
                 return "";
@@ -484,7 +484,7 @@ function Docs() {
                 return html;
             },
             addImage:(image)=>{
-                return "<div align=\"center\" style=\"margin:60px 0\"><p><img style=\"max-height:450px\" src=\"images/" + image +"\"></p></div>\n\n";
+                return "<div align=\"center\" style=\"margin:60px 0\"><p><img style=\"background-color:#fff;max-height:450px\" src=\"images/" + image +"\"></p></div>\n\n";
             }
         };
 

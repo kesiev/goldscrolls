@@ -12,7 +12,7 @@ The Goldscrolls tournament is the most anticipated event of the year and hosts a
 
 To fight in the Goldscrolls tournament you and your friends must select an alchemist to play and print his character sheet. You can download the character sheets PDF here.
 
-<div align="center" style="margin:60px 0"><p><img style="max-height:150px" src="portraits/aphla.png"></p></div>
+<div align="center" style="margin:60px 0"><p><img style="background-color:#fff;max-height:150px" src="portraits/aphla.png"></p></div>
 
 ### Aphla
 
@@ -22,7 +22,7 @@ When she was only a child, Aphla was found crying in an empty barrel by an alche
 
   * [Download the Aphla character sheet PDF v0.1](pdfs/aphla-v0.1.pdf)
 
-<div align="center" style="margin:60px 0"><p><img style="max-height:150px" src="portraits/tabe.png"></p></div>
+<div align="center" style="margin:60px 0"><p><img style="background-color:#fff;max-height:150px" src="portraits/tabe.png"></p></div>
 
 ### Tabe
 
@@ -32,7 +32,7 @@ Abe and Bea are the most skilled Merchants in the Empire, but what has made them
 
   * [Download the Tabe character sheet PDF v0.1](pdfs/tabe-v0.1.pdf)
 
-<div align="center" style="margin:60px 0"><p><img style="max-height:150px" src="portraits/magma.png"></p></div>
+<div align="center" style="margin:60px 0"><p><img style="background-color:#fff;max-height:150px" src="portraits/magma.png"></p></div>
 
 ### Magma
 
@@ -48,7 +48,7 @@ At birth, the Miners of the mountain range of the Edge of the World are destined
 
 Every player needs:
 
-<div align="center" style="margin:60px 0"><p><img style="max-height:450px" src="images/tutorial-materials.png"></p></div>
+<div align="center" style="margin:60px 0"><p><img style="background-color:#fff;max-height:450px" src="images/tutorial-materials.png"></p></div>
 
   * A character sheet
   * 5 Hand tokens, a Gold token, a Health token, a Defense token, and an Attack token (you can cut these tokens from the right side of any character sheet)
@@ -62,7 +62,7 @@ The players will join the Goldscrolls tournament and fight as an alchemist. Ever
 
 This is a quick overview of the character sheet sections:
 
-<div align="center" style="margin:60px 0"><p><img style="max-height:450px" src="images/tutorial-sheet.png"></p></div>
+<div align="center" style="margin:60px 0"><p><img style="background-color:#fff;max-height:450px" src="images/tutorial-sheet.png"></p></div>
 
 ### DEF track
 
@@ -92,7 +92,7 @@ Every character belongs to a specific school, which has its own rules to teach p
 
 ## Preparation
 
-<div align="center" style="margin:60px 0"><p><img style="max-height:450px" src="images/tutorial-setup.png"></p></div>
+<div align="center" style="margin:60px 0"><p><img style="background-color:#fff;max-height:450px" src="images/tutorial-setup.png"></p></div>
 
 All players:
 
@@ -116,7 +116,7 @@ Then you must perform any of the following actions multiple times and in any ord
 
 The scrolls with a Hand token on their coin symbol are ready and they can be activated. You can choose one of your ready scrolls and activate it.
 
-<div align="center" style="margin:60px 0"><p><img style="max-height:450px" src="images/tutorial-activate.png"></p></div>
+<div align="center" style="margin:60px 0"><p><img style="background-color:#fff;max-height:450px" src="images/tutorial-activate.png"></p></div>
 
 When a scroll is activated all of the powers written on it must be activated one by one, following the scroll order. Powers having a name starting with OPP or OPPONENT are targeting your opponent, so he has to apply its effects. In any other case, the power always targets yourself so you've to apply its effects. Powers may help you and obstruct your opponent - have a look at the Powers sections of this manual for a complete description.
 
@@ -128,7 +128,7 @@ You don't have to activate all of your ready scrolls in your turn: the scrolls y
 
 Alchemists can convert a +x ATK power targeting themselves into a +x GOLD power. To do that, increase the available Gold by x instead of increasing the Attack value.
 
-<div align="center" style="margin:60px 0"><p><img style="max-height:450px" src="images/tutorial-atk.png"></p></div>
+<div align="center" style="margin:60px 0"><p><img style="background-color:#fff;max-height:450px" src="images/tutorial-atk.png"></p></div>
 
 #### Alchemy of +x DEF power
 
@@ -136,13 +136,13 @@ A +x DEF power increases the target Defense value. When its effect is targeting 
 
 A +x DEF power targeting yourself may be used as a +x GOLD power instead, as you do for the +x ATK power.
 
-<div align="center" style="margin:60px 0"><p><img style="max-height:450px" src="images/tutorial-def.png"></p></div>
+<div align="center" style="margin:60px 0"><p><img style="background-color:#fff;max-height:450px" src="images/tutorial-def.png"></p></div>
 
 ### Purchase a scroll
 
 Any scroll in your Scrolls area with an empty space that is over another scroll with no empty spaces is purchasable. During your turn, you may purchase them with Gold to get stronger.
 
-<div align="center" style="margin:60px 0"><p><img style="max-height:450px" src="images/tutorial-purchase.png"></p></div>
+<div align="center" style="margin:60px 0"><p><img style="background-color:#fff;max-height:450px" src="images/tutorial-purchase.png"></p></div>
 
 The scroll cost is printed into the coin icon over that scroll. To buy a scroll decrease the Gold track by its cost and fill in all of its empty spaces one by one with the powers following your character school learning method. You'll find more about the learning method in the Schools and Learning section of this manual.
 
@@ -150,7 +150,7 @@ You must have enough gold to buy a scroll otherwise that scroll can't be bought.
 
 #### Slash power
 
-<div align="center" style="margin:60px 0"><p><img style="max-height:450px" src="images/tutorial-slash.png"></p></div>
+<div align="center" style="margin:60px 0"><p><img style="background-color:#fff;max-height:450px" src="images/tutorial-slash.png"></p></div>
 
 After purchasing a scroll check all of the scrolls on the same column: if all of them are available (i.e. they don't have any empty space) you must activate the power written in the box at the head of that column immediately. Once that power is activated, its power won't be activated again for the rest of the match.
 
@@ -160,7 +160,7 @@ The same goes for the rows: if all of the scrolls on the same row of the one you
 
 If your Attack value is greater than 0, you may attack your opponent.
 
-<div align="center" style="margin:60px 0"><p><img style="max-height:450px" src="images/tutorial-attack.png"></p></div>
+<div align="center" style="margin:60px 0"><p><img style="background-color:#fff;max-height:450px" src="images/tutorial-attack.png"></p></div>
 
 Inflict the opponent as damage as your Attack value, which will manage it as described in the Defending section of this manual. After the attack ends, set your Attack value back to 0 removing the Attack token from your character sheet.
 
@@ -168,7 +168,7 @@ Inflict the opponent as damage as your Attack value, which will manage it as des
 
 If your Attack value is greater equal than your Defense value, you may break your defense.
 
-<div align="center" style="margin:60px 0"><p><img style="max-height:450px" src="images/tutorial-break.png"></p></div>
+<div align="center" style="margin:60px 0"><p><img style="background-color:#fff;max-height:450px" src="images/tutorial-break.png"></p></div>
 
 Set both your Defense and Attack value to 0 removing the Defense token and the Attack token from your sheet. You're undefended for the rest of your turn.
 
@@ -180,7 +180,7 @@ When you decide to pass, your turn ends.
 
 When your turn ends:
 
-<div align="center" style="margin:60px 0"><p><img style="max-height:450px" src="images/tutorial-endturn.png"></p></div>
+<div align="center" style="margin:60px 0"><p><img style="background-color:#fff;max-height:450px" src="images/tutorial-endturn.png"></p></div>
 
   - If your opponent has no health, you won! If your opponent is still alive...
   - Set your Attack and Gold values back to 0 removing the Attack and Gold tokens from your board. Your Defense value is not changed.
@@ -192,7 +192,7 @@ When your turn ends:
 
 When your opponent inflicts damage to you:
 
-<div align="center" style="margin:60px 0"><p><img style="max-height:450px" src="images/tutorial-defend.png"></p></div>
+<div align="center" style="margin:60px 0"><p><img style="background-color:#fff;max-height:450px" src="images/tutorial-defend.png"></p></div>
 
   - If your defense value is greater than 0, you must decrease the Defense value by the inflicted damage. Your Defense value can't go under 0 this way so, when it hits 0, your defense ends and any remaining damage is lost.
   - If your defense value is 0 or less, you must decrease your Health value by the inflicted damage. If you hit the 0, your opponent wins at the end of his turn!
@@ -209,7 +209,7 @@ The characters you're going to play will use his school learning procedure to in
 
 The Merchants have in their ranks the richest people of the Empire. Their members don't share their knowledge for free: rookies have to pay good money to veterans for their private lessons. The Merchants' motto is 'Gold for Power, Power for Gold' and, considering that their business extends far beyond the walls of the Empire, it is no wonder that their guild is among the most feared and respected.
 
-<div align="center" style="margin:60px 0"><p><img style="max-height:450px" src="images/tutorial-school-merchant.png"></p></div>
+<div align="center" style="margin:60px 0"><p><img style="background-color:#fff;max-height:450px" src="images/tutorial-school-merchant.png"></p></div>
 
 _School learning procedure: Pick a dice. You may pay the price of the second dice to pick it too. Roll the dices you picked and choose any power on the rows matching the rolled dices values, paying the price in Gold reported in the coin icon at top of the matching column. You've to pay the power full price to buy it._
 
@@ -217,7 +217,7 @@ _School learning procedure: Pick a dice. You may pay the price of the second dic
 
 The Miners use the alchemy power to extract minerals from the mountain range of the Edge of the World at the northern side of the Empire. They work in small teams of specialists, so Miner alchemists tend to spend a lot of time and gold to specialize on specific tasks to form a group. An ancient Merchant proverb says 'There is the right miner for every gem' and so is combat: if you have the misfortune to meet the Miner that matches your way of fighting you'll have a bad time.
 
-<div align="center" style="margin:60px 0"><p><img style="max-height:450px" src="images/tutorial-school-miner.png"></p></div>
+<div align="center" style="margin:60px 0"><p><img style="background-color:#fff;max-height:450px" src="images/tutorial-school-miner.png"></p></div>
 
 _School learning procedure: Roll two dices. Select one of the matching rows and then learn one of the crossed skills. If there are no crossed skills in that row you must learn one not crossed skill that has at least one crossed skill on its top - then cross out that skill._
 
@@ -225,7 +225,7 @@ _School learning procedure: Roll two dices. Select one of the matching rows and 
 
 A mysterious collective of wandering alchemists with a rigid and merciless code of life who learns the techniques on the road. It uses so rough and uncontrollable learning methods that some argue that it shouldn't be considered a school at all. But it's the Wanderers adaptability their ace in the hole.
 
-<div align="center" style="margin:60px 0"><p><img style="max-height:450px" src="images/tutorial-school-wanderer.png"></p></div>
+<div align="center" style="margin:60px 0"><p><img style="background-color:#fff;max-height:450px" src="images/tutorial-school-wanderer.png"></p></div>
 
 _School learning procedure: Roll two dices. You can choose between two powers matching the dice values on the grid in any order. If you roll a pair you must select the relative power on the grid diagonal._
 
