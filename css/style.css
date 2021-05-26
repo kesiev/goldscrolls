@@ -1,0 +1,170 @@
+BODY, TD {
+	padding: 0;
+	margin: 0;
+	font-family: serif;
+	font-size: 18px;
+	line-height: 28px;
+	color: #000;
+}
+
+H1, H2, H3, H4, TH, B, .punchline, A, .portraitname {
+	font-family: 'gamalielmedium';
+}
+
+A {
+	color: #f00;
+}
+
+
+P {
+	text-align: justify;
+}
+
+H1 {
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	padding: 20px 0;
+	letter-spacing: 3px;
+	line-height: 40px;
+}
+
+B {
+	font-weight: normal;
+}
+
+TABLE {
+	border:2px solid #000;
+}
+
+TH {
+	background-color: #000;
+	color: #fff;
+	padding:10px;
+}
+
+TD {
+	border-top :1px solid #000;
+	padding:5px;
+}
+
+HR {
+    border:0; 
+    height:20px; 
+    background:url('separator.png') 0 0; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin:20px 0;
+}
+
+#header {
+	background-color: #000;
+	color:#fff;
+	padding:30px;
+}
+
+#header H1 {
+	line-height: 0.8;
+	font-size: 100;
+	letter-spacing: -2;
+	transform: rotate(-3deg);
+	padding: 30px 0 50px 0;
+	margin: 0;
+	text-shadow: 0px 10px #f00;
+	overflow: hidden;
+	background-color: transparent;
+}
+
+#header .portraitbar {
+	vertical-align: middle;
+	border-bottom: 1px solid #fff;
+	margin-top: 60px;
+}
+
+#header .portraitimage {
+	transform: translate(-50px,0) rotate(-3deg);
+	display: inline-block;
+	background-color: #fff;
+	width: 30%;
+	height:90px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border:10px solid #000;
+	vertical-align: middle;
+	margin-right: -30px;
+}
+
+#header .portraitname {
+	font-size: 60;
+	margin:0;
+	padding:0;
+	vertical-align: middle;
+	letter-spacing: -2;
+	text-shadow: 0px 3px #f00;
+	overflow: hidden;	
+}
+
+#downloads H2 {
+	font-size: 60;
+	white-space: nowrap;
+	line-height: 100px;
+	height: 100px;
+}
+
+#downloads P {
+	text-align: justify;
+}
+
+#downloads P.downloadbox {
+	background-color: #fff;
+	text-align: center;
+	padding: 5px;
+	overflow: hidden;
+}
+
+.punchline {
+	font-size: 19px;
+	margin: 3vh;
+}
+
+.punchline P {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+#page {
+	margin: auto;
+	width:80%;
+}
+
+#footer {
+	text-align: center;
+	font-size: 12px;
+	font-family: 'gamalielmedium';
+	padding-bottom: 40px;
+}
+
+.logo {
+	background-color: #000;
+	height:50vh;
+	background-image: url('logo.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	border: 50px solid #000;
+}
+
+.image {
+	height:400px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+.powerName {
+	width:20%;
+	text-align: right;
+}

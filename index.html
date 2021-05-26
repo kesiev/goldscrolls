@@ -1,0 +1,91 @@
+<html><head>
+  <title>Goldscrolls</title>
+  <link rel="stylesheet" href="css/fonts.css" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8" />
+  <script src="data/manual.js"></script>
+  <script src="data/powers.js"></script>
+  <script src="data/characters.js"></script>
+  <script src="data/game.js"></script>
+  <script src="js/generator.js"></script>
+  <script src="js/jsPDF.umd.min.js"></script>
+  <script src="js/svg2pdf.umd.min.js"></script>
+  <script src="js/gamaliel-normal.js"></script>
+</head><body onload="onl()">
+  <div class='logo'></div>
+  <div id="page">
+    <hr>
+    <div id="punchline" class="punchline"></div>
+    <hr>
+    <div id="header">
+      <h1>Get ready!</h1>
+      <div id="downloads"></div>
+    </div>
+    <h1>Game manual</h1>
+    <div id="manual"></div>
+    <hr>
+  </div>
+  <div id="footer"></div>
+</body>
+<script>
+
+function onl() {
+
+  // USAGE:
+  //  index.html                        : Homepage, download PDFs from "pdfs" folder.
+  //  index.html?generate=1             : Homepage, PDFs and SVGs are generated on-the-fly from data.
+  //  index.html?markdown=1             : Homepage, markdown.
+  //  index.html?preview=<character id> : Display the character sheet SVG generated from data. Use for character development.
+ 
+  var
+    generateMode=!window.location.href.match(/\?generate=1/),
+    markdown=window.location.href.match(/\?markdown=1/),
+    previewMode=window.location.href.match(/\?preview=(.*)/);
+
+  if (markdown) {
+
+     // Markdown
+    var docs=new Docs();
+
+    document.body.innerHTML=
+      "<textarea>"+
+      "# "+GAME.name+"\n\n"+
+      "<div align=\"center\" style=\"margin:60px 0\"><p><img style=\"max-height:350px\" src=\"css/logo-inverted.png\"></p></div>"+
+      "<div align=\"center\" style=\"font-weight:bold\">"+
+      GAME.punchline.join("<br>")+
+      "</div>"+
+      "\n\n---\n\n"+
+      "<div align=\"center\"><a href=\""+GAME.url+"\">Homepage</a></div>"+
+      "\n\n---\n\n"+
+      docs.getMarkdownDownloads(generateMode)+
+      "# Game manual\n\n"+
+      docs.getMarkdownManual()+
+      "</textarea>";
+
+  } else if (previewMode) {
+
+    // Character sheet preview
+    CHARACTERS.forEach((character,index)=>{
+      if (character.id==previewMode[1]) {
+        Docs.getSheetSVG(index,svg=>{
+          document.title="Preview";
+           document.body.innerHTML=svg;
+        })
+      }
+    });
+
+  } else {
+
+    // Website
+    var docs=new Docs();
+
+    document.title=docs.getTitle();
+    document.getElementById("punchline").innerHTML="<p>"+GAME.punchline.join("</p><p>")+"</p>";
+    document.getElementById("downloads").innerHTML=docs.getHtmlDownloads(generateMode);
+    document.getElementById("manual").innerHTML=docs.getHtmlManual();
+    document.getElementById("footer").innerHTML=docs.getHtmlFooter();
+
+  }
+
+}
+
+</script></html>
