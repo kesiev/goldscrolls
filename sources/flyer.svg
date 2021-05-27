@@ -26,16 +26,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="194.63519"
-     inkscape:cy="587.69637"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="340.18775"
+     inkscape:cy="983.31434"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1398"
      inkscape:window-height="690"
-     inkscape:window-x="-8"
+     inkscape:window-x="0"
      inkscape:window-y="23"
      inkscape:window-maximized="0" />
   <metadata
@@ -1350,7 +1350,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.28075px;font-family:Gamaliel;-inkscape-font-specification:Gamaliel;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.265709"
          id="tspan14164">Deckbuilder for two players!</tspan></text>
     <g
-       id="g28343">
+       id="g14625">
       <path
          id="rect26386"
          style="fill:none;stroke:#000000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:4.5, 1.5;stroke-dashoffset:0;paint-order:stroke fill markers"
@@ -1397,9 +1397,9 @@
            inkscape:flatsided="false"
            inkscape:rounded="0"
            inkscape:randomized="0"
-           d="m 211.03132,309.57561 -9.30157,-5.30276 -0.43476,10.6981 -7.52597,-7.61565 -3.30495,10.1841 -5.19221,-9.36373 -5.93003,8.91477 -2.47337,-10.41733 -8.1153,6.98429 0.42891,-10.69834 -9.6987,4.53581 3.29939,-10.1859 -10.5628,1.75093 5.92516,-8.91801 -10.6435,-1.16381 8.11149,-6.98872 -9.93481,-3.99223 9.69622,-4.5411 -8.48931,-6.52457 10.56184,-1.7567 -6.4142,-8.57301 10.64413,1.15799 -3.86337,-9.98562 9.93699,3.9868 -1.02602,-10.65766 8.49288,6.51993 1.88743,-10.53926 6.41888,8.56951 4.6609,-9.63922 3.86882,9.98352 7.08869,-8.02427 1.03184,10.6571 8.99075,-5.8142 -1.88168,10.54029 10.22599,-3.17293 -4.65563,9.64176 10.70283,-0.29632 -7.0843,8.02814 10.38588,2.60226 -8.98756,5.81911 9.29867,5.30784 -10.22426,3.1785 7.52181,7.61976 -10.70267,0.30217 5.1871,9.36656 -10.38731,-2.59658 z"
            inkscape:transform-center-x="4.7300059"
-           inkscape:transform-center-y="-2.4265113" />
+           inkscape:transform-center-y="-2.4265113"
+           d="m 211.03132,309.57561 -9.30157,-5.30276 -0.43476,10.6981 -7.52597,-7.61565 -3.30495,10.1841 -5.19221,-9.36373 -5.93003,8.91477 -2.47337,-10.41733 -8.1153,6.98429 0.42891,-10.69834 -9.6987,4.53581 3.29939,-10.1859 -10.5628,1.75093 5.92516,-8.91801 -10.6435,-1.16381 8.11149,-6.98872 -9.93481,-3.99223 9.69622,-4.5411 -8.48931,-6.52457 10.56184,-1.7567 -6.4142,-8.57301 10.64413,1.15799 -3.86337,-9.98562 9.93699,3.9868 -1.02602,-10.65766 8.49288,6.51993 1.88743,-10.53926 6.41888,8.56951 4.6609,-9.63922 3.86882,9.98352 7.08869,-8.02427 1.03184,10.6571 8.99075,-5.8142 -1.88168,10.54029 10.22599,-3.17293 -4.65563,9.64176 10.70283,-0.29632 -7.0843,8.02814 10.38588,2.60226 -8.98756,5.81911 9.29867,5.30784 -10.22426,3.1785 7.52181,7.61976 -10.70267,0.30217 5.1871,9.36656 -10.38731,-2.59658 z" />
         <g
            id="g26639"
            transform="translate(-0.29413603,4.2914035)">
@@ -1554,6 +1554,11 @@
              style="fill:#ffffff;stroke:#ff0000;stroke-width:45.2086;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers" />
         </g>
       </g>
+      <path
+         id="rect2944"
+         style="fill:#ffffff;stroke-width:10;paint-order:stroke markers fill"
+         d="m 142.10846,250.94544 4.55799,3.90745 -8.31661,8.55167 -4.35956,-4.17203 z"
+         sodipodi:nodetypes="ccccc" />
       <g
          id="g36510-0"
          style="fill:#ff0000"
